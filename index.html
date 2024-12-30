@@ -14,70 +14,71 @@
     <style>
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: #f4f4f4;
+            background-color: #1e1e1e;
+            color: #d4d4d4;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #007acc;
             color: #fff;
             padding: 20px 0;
             text-align: center;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        .header_section {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        .header-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .header-title {
-            font-size: 2rem;
-            padding-left: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         nav {
-            background-color: #333;
-            color: #fff;
+            background-color: #252526;
+            color: #d4d4d4;
             padding: 15px 0;
             text-align: center;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         nav a {
-            color: #fff;
+            color: #d4d4d4;
             text-decoration: none;
             margin: 0 15px;
             font-size: 1.1rem;
         }
         nav a:hover {
-            color: #4CAF50;
+            color: #007acc;
         }
         section {
             padding: 40px;
-            background-color: #fff;
+            background-color: #2d2d2d;
             margin: 20px auto;
             max-width: 800px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         .footer_section {
-            background-color: #333;
-            color: #fff;
+            background-color: #252526;
+            color: #d4d4d4;
             padding: 20px 0;
             text-align: center;
             position: fixed;
             bottom: 0;
             width: 100%;
-            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
         }
         .footer_section a {
-            color: #4CAF50;
+            color: #007acc;
         }
         .footer_section a:hover {
             text-decoration: underline;
+        }
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons a {
+            color: #d4d4d4;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+        .social-icons a:hover {
+            color: #007acc;
+        }
+        .carousel {
+            display: none; /* Ocultar el carrusel */
         }
     </style>
 </head>
@@ -87,18 +88,27 @@
     </header>
     <nav>
         <a href="index.html" class="active">Inicio</a>
-        <a href="Pública/about.html">Acerca de</a>
+        <a href="Pública/about.html">Acerca de mí</a>
         <a href="Pública/contact.html">Contacto</a>
         <a href="Pública/net.html">Red</a>
-        <a href="Pública/topic.html">Tema</a>
+        <a href="Pública/topic.html">Porsche 918 spyder</a>
         <a href="Pública/degree.html">Grado</a>
     </nav>
     <section>
         <h2>Bienvenido a la página principal</h2>
         <p>Esta es la página principal del sitio web.</p>
     </section>
+    <section>
+        <h2>Información General</h2>
+        <p>Este sitio web está diseñado para proporcionar recursos y materiales educativos sobre fundamentos de ingeniería informática. Aquí encontrarás información sobre mí, sobre el porsche 918 spyder y sobre el plan de estudio de el grado en la UFV.</p>
+        <p>Navega a través de las diferentes secciones para aprender más sobre cada tema.</p>
+    </section>
     <footer class="footer_section">
-        <p>&copy; 2024 todos los derechos reservados. Diseño por <a href="#">Jaime</a></p>
+        <p>&copy; 2025 todos los derechos reservados. Diseño por <a href="#">Jaime Ortega</a></p>
+        <div class="social-icons">
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
     </footer>
 </body>
 </html>
