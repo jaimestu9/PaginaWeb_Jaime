@@ -1,9 +1,5 @@
 # Estructura del Sitio Web
 
-A continuación se muestra el mapa de navegación del sitio web:
-
-![Mapa del Sitio Web](imágenes/mapa_web.png)
-
 ## Páginas Incluidas
 - `index.html`: Página principal
 - `Pública/about.html`: Acerca de mí
