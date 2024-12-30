@@ -23,3 +23,9 @@ A continuación se muestra el mapa de navegación del sitio web:
 - Se creó la página de grado (`Pública/degree.html`) con información académica.
 - Se añadió la página de fundamentos de la ingeniería informática (`Pública/fii.html`) con contenido educativo.
 - Se implementó un carrusel de imágenes en las páginas `Pública/about.html` y `Pública/topic.html` para mostrar imágenes de manera animada con flechas para navegar entre ellas.
+- Se añadió una sección de testimonios en la página principal (`index.html`) con comentarios de usuarios.
+- Se mejoró el diseño responsivo para dispositivos móviles en todas las páginas.
+- Se optimizó el tiempo de carga de las imágenes en la página `Pública/fii.html`.
+- Se actualizó el contenido de la página "Acerca de mí" (`Pública/about.html`) con nueva información profesional.
+- Se corrigieron errores de navegación en la página de contacto (`Pública/contact.html`).
+- Se añadió un mapa interactivo en la página de red (`Pública/net.html`) para mostrar ubicaciones relevantes.

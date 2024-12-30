@@ -64,15 +64,19 @@
         .subject-list {
             list-style-type: none;
             padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
         }
 
         .subject-list li {
-            margin: 10px 0;
+            flex: 1 1 calc(50% - 10px);
             background-color: #333;
             padding: 15px;
             border-radius: 5px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s, background-color 0.3s;
+            text-align: center;
         }
 
         .subject-list a {
@@ -80,7 +84,6 @@
             text-decoration: none;
             font-size: 1.1rem;
             display: block;
-            text-align: center;
         }
 
         .subject-list li:hover {
@@ -99,17 +102,17 @@
     </header>
     <nav>
         <a href="../index.html">Inicio</a>
-        <a href="about.html">Acerca de</a>
+        <a href="about.html">Acerca de mí</a>
         <a href="contact.html">Contacto</a>
         <a href="net.html">Red</a>
-        <a href="topic.html">Tema</a>
+        <a href="topic.html">Porsche 918 Spyder</a>
         <a href="degree.html">Grado</a>
         <a href="curso1.html" class="active">Primer Curso</a>
     </nav>
     <section>
         <h2>Asignaturas del Primer Curso</h2>
         <ul class="subject-list">
-            <li><a href="fii.html">Fundamentos de la ingeniería informática</a></li>
+            <li><a href="fii.html">Fundamentos de la ingeniería informática (click to info)</a></li>
             <li><a href="#">MATEMÁTICA DISCRETA</a></li>
             <li><a href="#">MATEMÁTICAS PARA LA INGENIERÍA I</a></li>
             <li><a href="#">MATEMÁTICAS PARA LA INGENIERÍA II</a></li>
