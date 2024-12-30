@@ -19,3 +19,8 @@
 - Se creó la página de grado (`Pública/degree.html`) con información académica.
 - Se añadió la página de fundamentos de la ingeniería informática (`Pública/fii.html`) con contenido educativo.
 - Se implementó un carrusel de imágenes en las páginas `Pública/about.html` y `Pública/topic.html` para mostrar imágenes de manera animada con flechas para navegar entre ellas.
+
+## Complicaciones
+
+- uso excesivo de ramas por bugueo mental, por lo demas bastante bien.
+
