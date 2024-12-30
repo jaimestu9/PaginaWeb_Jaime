@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Acerca de mí</title>
     <link rel="stylesheet" href="../CSS/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -72,27 +72,54 @@
         .social-icons a:hover {
             color: #4CAF50;
         }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: calc(33.333% - 10px);
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
     <header class="container">
-        <h1>About Me</h1>
+        <h1>Acerca de mí</h1>
     </header>
     <nav>
-        <a href="../index.html">Home</a>
-        <a href="about.html" class="active">About</a>
-        <a href="contact.html">Contact</a>
-        <a href="net.html">Network</a>
-        <a href="topic.html">Topic</a>
-        <a href="degree.html">Degree</a>
+        <a href="../index.html">Inicio</a>
+        <a href="about.html" class="active">Acerca de</a>
+        <a href="contact.html">Contacto</a>
+        <a href="net.html">Red</a>
+        <a href="topic.html">Tema</a>
+        <a href="degree.html">Grado</a>
     </nav>
     <section>
         <h2>Acerca de mí</h2>
-        <p>Breve descripción sobre ti inspirada en las unidades 2 y 3 (Módulo 1).</p>
-        <p>Currículum vitae, dos imágenes y algunos enlaces a cuentas de redes sociales.</p>
+        <p>Hola, soy Jaime tengo 18 años y estudio ingeniería informática en la UFV en Madrid. Antes de entrar en la universidad, estudiaba en el Bachillerato tecnologico en el Ramiro de Maeztu en la calle serrano. Soy una persona a la que le gustan los retos dificiles, me gusta mucho el deporte, especialmente el baloncesto y la natación y me encantan los coches. </p>
+        <h3>Currículum Vitae</h3>
+        <ul>
+            <li><strong>Educación:</strong> Grado en Ingeniería Informática 1er año.</li>
+            <li><strong>Idiomas:</strong> Inglés, Español y Francés (un poco).</li>
+            <li><strong>Habilidades:</strong> Programación, Desarrollo web.</li>
+        </ul>
+        <h3>Galería</h3>
+        <div class="gallery">
+            <img src="../images/photo1.jpg" alt="Foto 1">
+            <img src="../images/photo2.jpg" alt="Foto 2">
+            <img src="../images/photo3.jpg" alt="Foto 3">
+        </div>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
     </section>
     <footer class="footer_section">
-        <p>&copy; 2024 todos los derechos reservados. Diseño by <a href="#">Sarvesh Kumar</a></p>
+        <p>&copy; 2024 todos los derechos reservados. Diseño por <a href="#">Jaime</a></p>
     </footer>
 </body>
 </html>

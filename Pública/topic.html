@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche 918 Spyder</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+        section {
+            padding: 40px;
+            background-color: #fff;
+            margin: 20px auto;
+            max-width: 800px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .footer_section {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .footer_section a {
+            color: #4CAF50;
+        }
+        .footer_section a:hover {
+            text-decoration: underline;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: calc(33.333% - 10px);
+            border-radius: 5px;
+        }
+        .video-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .video-container iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+            border-radius: 5px;
+        }
+        .features {
+            margin-top: 20px;
+        }
+        .features ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .more-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .more-info a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .more-info a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <h1>Porsche 918 Spyder</h1>
+    </header>
+    <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="about.html">Acerca de</a>
+        <a href="contact.html">Contacto</a>
+        <a href="net.html">Red</a>
+        <a href="topic.html" class="active">Tema</a>
+        <a href="degree.html">Grado</a>
+    </nav>
+    <section>
+        <h2>Descripción del Porsche 918 Spyder</h2>
+        <p>El Porsche 918 Spyder es un superdeportivo híbrido enchufable fabricado por Porsche. Combina un motor V8 de 4.6 litros con dos motores eléctricos para ofrecer un rendimiento excepcional y eficiencia energética.</p>
+        <h3>Características</h3>
+        <div class="features">
+            <ul>
+                <li>Motor V8 de 4.6 litros</li>
+                <li>Dos motores eléctricos</li>
+                <li>Potencia combinada de 887 caballos de fuerza</li>
+                <li>Aceleración de 0 a 100 km/h en 2.6 segundos</li>
+                <li>Velocidad máxima de 340 km/h</li>
+            </ul>
+        </div>
+        <h3>Galería de Imágenes</h3>
+        <div class="gallery">
+            <img src="../images/porsche1.jpg" alt="Porsche 918 Spyder 1">
+            <img src="../images/porsche2.jpg" alt="Porsche 918 Spyder 2">
+            <img src="../images/porsche3.jpg" alt="Porsche 918 Spyder 3">
+        </div>
+        <h3>Video Relacionado</h3>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/tu_video_id" allowfullscreen></iframe>
+        </div>
+        <div class="more-info">
+            <a href="detalles.html">Ver Información Más Detallada</a>
+        </div>
+    </section>
+    <footer class="footer_section">
+        <p>&copy; 2024 todos los derechos reservados. Diseño por <a href="#">Jaime</a></p>
+    </footer>
+</body>
+</html>
