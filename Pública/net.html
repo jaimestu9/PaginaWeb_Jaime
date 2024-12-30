@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #1e1e1e;
+            color: #d4d4d4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007acc;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav {
+            background-color: #252526;
+            color: #d4d4d4;
+            padding: 15px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            color: #d4d4d4;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            color: #007acc;
+        }
+        section {
+            padding: 40px;
+            background-color: #2d2d2d;
+            margin: 20px auto;
+            max-width: 800px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .footer_section {
+            background-color: #252526;
+            color: #d4d4d4;
+            padding: 20px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .footer_section a {
+            color: #007acc;
+        }
+        .footer_section a:hover {
+            text-decoration: underline;
+        }
+        .links {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .links li {
+            margin: 10px 0;
+            width: 100%;
+            max-width: 600px;
+            background-color: #333;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, background-color 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+        .links a {
+            color: #d4d4d4;
+            text-decoration: none;
+            font-size: 1.1rem;
+            display: block;
+            text-align: center;
+            z-index: 1;
+            position: relative;
+        }
+        .links li::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(120deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+            z-index: 0;
+            transition: opacity 0.3s;
+            opacity: 0;
+        }
+        .links li:hover::before {
+            opacity: 1;
+        }
+        .links li:hover {
+            transform: scale(1.05);
+            background-color: #444;
+        }
+        .links a:hover {
+            color: #007acc;
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <h1>Red de Compañeros</h1>
+    </header>
+    <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="about.html">Acerca de mí</a>
+        <a href="contact.html">Contacto</a>
+        <a href="net.html" class="active">Red</a>
+        <a href="topic.html">Porsche 918 Spyder</a>
+        <a href="degree.html">Grado</a>
+    </nav>
+    <section>
+        <h2>Páginas Web de Compañeros</h2>
+        <ul class="links">
+            <li><a href="https://carlosblazquezufv.github.io/Web_Fundamentos/public/fii.html" target="_blank">Carlos Blazquez</a></li>
+            <li><a href="https://walterdybek.github.io/PaginaWebFundamentos/index.html" target="_blank">Walter Dybek</a></li>
+            <li><a href="https://jaimeps-lgtm.github.io/Pagina-Web/" target="_blank">Jaime Poyatos</a></li>
+            <li><a href="https://cbborja.github.io/WEBFUNDAMENTOS/index.html" target="_blank">Francisco de Borja</a></li>
+            <li><a href="https://brad-david-adrian.github.io/my_first_web_page_2024/index.html" target="_blank">Adrián David Brad</a></li>
+        </ul>
+    </section>
+    <footer class="footer_section">
+        <p>&copy; 2025 todos los derechos reservados. Diseño por <a href="#">Jaime Ortega</a></p>
+    </footer>
+</body>
+</html>
