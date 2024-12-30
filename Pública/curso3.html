@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Tercer Curso</title>
     <link rel="stylesheet" href="../CSS/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -61,67 +61,68 @@
         .footer_section a:hover {
             text-decoration: underline;
         }
-        .contact-form {
-            display: flex;
-            flex-direction: column;
+        .subject-list {
+            list-style-type: none;
+            padding: 0;
         }
-        .contact-form input, .contact-form textarea {
-            margin-bottom: 15px;
-            padding: 10px;
-            font-size: 1rem;
-            border: 1px solid #ccc;
+
+        .subject-list li {
+            margin: 10px 0;
+            background-color: #333;
+            padding: 15px;
             border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, background-color 0.3s;
         }
-        .contact-form button {
-            padding: 10px;
-            font-size: 1rem;
-            background-color: #003c02;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .contact-form button:hover {
-            background-color: #003c02;
-        }
-        .social-icons {
-            margin-top: 20px;
-        }
-        .social-icons a {
-            color: #333;
-            margin: 0 10px;
-            font-size: 1.5rem;
+
+        .subject-list a {
+            color: #d4d4d4;
             text-decoration: none;
+            font-size: 1.1rem;
+            display: block;
+            text-align: center;
         }
-        .social-icons a:hover {
-            color: #4CAF50;
+
+        .subject-list li:hover {
+            transform: scale(1.05);
+            background-color: #444;
+        }
+
+        .subject-list a:hover {
+            color: #007acc;
         }
     </style>
 </head>
 <body>
     <header class="container">
-        <h1>Contacto</h1>
+        <h1>Tercer Curso</h1>
     </header>
     <nav>
         <a href="../index.html">Inicio</a>
         <a href="about.html">Acerca de</a>
-        <a href="contact.html" class="active">Contacto</a>
+        <a href="contact.html">Contacto</a>
         <a href="net.html">Red</a>
         <a href="topic.html">Tema</a>
         <a href="degree.html">Grado</a>
+        <a href="curso3.html" class="active">Tercer Curso</a>
     </nav>
     <section>
-        <h2>Contáctame</h2>
-        <form class="contact-form" action="mailto:tu_correo@example.com" method="post" enctype="text/plain">
-            <input type="text" name="name" placeholder="Tu Nombre" required>
-            <input type="email" name="email" placeholder="Tu Correo Electrónico" required>
-            <textarea name="message" rows="5" placeholder="Tu Mensaje" required></textarea>
-            <button type="submit">Enviar Mensaje</button>
-        </form>
-        <div class="social-icons">
-            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-        </div>
+        <h2>Asignaturas del Tercer Curso</h2>
+        <ul class="subject-list">
+            <li><a href="#">INTELIGENCIA ARTIFICIAL I</a></li>
+            <li><a href="#">DESARROLLO E INTEGRACIÓN DE SOFTWARE</a></li>
+            <li><a href="#">INGENIERÍA DEL SOFTWARE II</a></li>
+            <li><a href="#">INTERACCIÓN PERSONA ORDENADOR</a></li>
+            <li><a href="#">COMPLEJIDAD COMPUTACIONAL</a></li>
+            <li><a href="#">ÉTICA Y DEONTOLOGÍA PROFESIONAL</a></li>
+            <li><a href="#">ADMINISTRACIÓN DE SISTEMAS</a></li>
+            <li><a href="#">BASES DE DATOS AVANZADAS</a></li>
+            <li><a href="#">REDES Y SISTEMAS DISTRIBUIDOS</a></li>
+            <li><a href="#">PROYECTOS II</a></li>
+            <li><a href="#">APRENDIZAJE ESTADÍSTICO Y DATA MINING</a></li>
+            <li><a href="#">INTELIGENCIA ARTIFICIAL II</a></li>
+            
+        </ul>
     </section>
     <footer class="footer_section">
         <p>&copy; 2025 todos los derechos reservados. Diseño por <a href="#">Jaime Ortega</a></p>
