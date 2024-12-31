@@ -54,6 +54,9 @@
             bottom: 0;
             width: 100%;
             box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         .footer_section a {
             color: #007acc;
@@ -62,13 +65,13 @@
             text-decoration: underline;
         }
         .social-icons {
-            margin-top: 20px;
+            margin-top: 5px;
         }
         .social-icons a {
             color: #d4d4d4;
             margin: 0 10px;
-            font-size: 1.5rem;
             text-decoration: none;
+            font-size: 1.5rem;
         }
         .social-icons a:hover {
             color: #007acc;
@@ -162,18 +165,13 @@
             <a class="carousel-control prev" onclick="prevSlide()">&#10094;</a>
             <a class="carousel-control next" onclick="nextSlide()">&#10095;</a>
         </div>
+    </section>
+    <footer class="footer_section">
         <div class="social-icons">
             <a href="https://x.com/Jaiimeeortegaa_" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="https://www.instagram.com/jaiimeeortegaa_/" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
-    </section>
-    <footer class="footer_section">
-        <div class="social-icons">
-            <!-- Iconos de redes sociales -->
-        </div>
-        <div class="footer-text">
-            &copy; 2025. Todos los derechos reservados. Diseño por <a href="#">Jaime Ortega</a>.
-        </div>
+        <p>&copy; 2025 todos los derechos reservados. Diseño por <a href="#">Jaime Ortega</a></p>
     </footer>
     <script>
         let currentIndex = 0;
